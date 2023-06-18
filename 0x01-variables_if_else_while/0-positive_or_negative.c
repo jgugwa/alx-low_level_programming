@@ -11,14 +11,14 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf(
-"%d ,is positive");
+"%i is positive");
 }
 else if (n == 0)
 {
-printf("%d ,is zero");
+printf("%i is zero");
 }
 else
-printf("%d ,is negative");
+printf("%i is negative");
 	return (0);
 
 }
