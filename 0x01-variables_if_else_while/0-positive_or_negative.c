@@ -11,14 +11,14 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf(
-"%i is positive");
+"98  is positive");
 }
 else if (n == 0)
 {
-printf("%i is zero");
+printf(" is zero");
 }
 else
-printf("%i is negative");
+printf(  is negative");
 	return (0);
 
 }
