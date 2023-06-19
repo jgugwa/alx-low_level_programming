@@ -4,7 +4,8 @@
 /*
 *betty style doc for function main goes there */int main(void)
 {
-for (char lc = 'a'; lc <= 'z'; lc++)
+char lc;
+for (lc = 'a'; lc <= 'z'; lc++)
 {
 if (lc == 'e' || lc == 'q')
 {
