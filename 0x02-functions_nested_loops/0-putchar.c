@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
  *define puctchar function herer*/void _putchar(char p)
