@@ -4,6 +4,7 @@
  *define puctchar function herer*/int _putchar(char p)
 {
 _putchar(p);
+return (0);
 }
 /*
 *betty style doc for function main goes there */int main(void)
