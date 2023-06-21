@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- *define puctchar function herer*/void _putchar(char p)
+ *define puctchar function herer*/int _putchar(char p)
 {
-putchar(p);
+_putchar(p);
 }
 /*
 *betty style doc for function main goes there */int main(void)
