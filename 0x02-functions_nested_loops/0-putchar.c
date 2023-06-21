@@ -7,7 +7,7 @@
 
 	while (_putcher[i] != '\0')
 	{
-		_putchar(_putcher[i]);
+		_putcher(_putcher[i]);
 		i++;
 	}
 	_putchar('\n');
