@@ -1,2 +1,2 @@
 #include <stdio.h>
-void _putcher(char p);
+int _putcher(char p);
