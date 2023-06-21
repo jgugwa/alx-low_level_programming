@@ -1,1 +1,1 @@
-these is the third  pproject  of c programming
+this are my second projects in c
