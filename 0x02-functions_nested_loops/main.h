@@ -1,1 +1,1 @@
-int _putcher(char p);
+void _putcher(char p);

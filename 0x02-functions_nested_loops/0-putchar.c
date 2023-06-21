@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- *define puctchar function herer*/int _putchar(char p)
+ *define puctchar function herer*/void _putchar(char p)
 {
 _putchar(p);
 }
