@@ -15,7 +15,7 @@ void _putchar(char y) {
 /* we basically have to apply the rucursive straytegy */
 void print_ind_digits(int n) {
     if (n == 0) {
-        return;
+        return (0);
     }
     print_ind_digits(n / 10);
     _putchar('0' + (n % 10));
@@ -33,6 +33,6 @@ void print_number(int n) {
         _putchar('0');
     }
     else {
-        print_digits(n);
+        print_ind_digits(n);
     }
 }
