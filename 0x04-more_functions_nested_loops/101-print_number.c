@@ -4,44 +4,35 @@
  * print_number - Function that prints an integer.
  * @n: int type number
  * Description: Can only use _putchar to print.
+ * do not use long
  */
-void print_number(int n)
-{
-	long m; /* power of 10 */
-	int c; /* boolean check */
-	long num; /* convert int to long */
 
-	num = n;
-	/* negatives */
-	if (num < 0)
-	{
-		num *= -1;
-		_putchar('-');
-	}
+/* introduce custome putcher function */
+void _putchar(char y) {
+    putchar(y);
+}
 
-	/* count up */
-	m = 1;
-	c = 1;
-	while (c)
-	{
-		if (num / (m * 10) > 0)
-			m *= 10;
-		else
-			c = 0;
-	}
+/* we basically have to apply the rucursive straytegy */
+void print_ind_digits(int n) {
+    if (n == 0) {
+        return;
+    }
+    print_ind_digits(n / 10);
+    _putchar('0' + (n % 10));
+}
 
-	/* count down */
-	while (num >= 0)
-	{
-		if (m == 1)
-		{
-			_putchar(num % 10 + '0');
-			num = -1;
-		}
-		else
-		{
-			_putchar((num / m % 10) + '0');
-			m /= 10;
-		}
-	}
+/*  define a function  to print the integer */
+void print_number(int n) {
+    /* Handle negative numbers */
+    if (n < 0) {
+        _putchar('-');
+        n = -n;
+    }
+    /* zero to  be handled as a special case */
+    if (n == 0) {
+        _putchar('0');
+    }
+    else {
+        print_digits(n);
+    }
 }
