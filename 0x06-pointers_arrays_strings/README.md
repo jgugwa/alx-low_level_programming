@@ -1,1 +1,1 @@
-# C - More pointers, arrays, and strings
+this is a continuation of more arrars and strings 
