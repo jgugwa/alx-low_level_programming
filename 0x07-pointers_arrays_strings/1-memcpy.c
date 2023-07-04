@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _memcpy - copy memory area
@@ -10,9 +10,9 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *yolo;
+	char *oliv;
 
-	yolo = dest;
+	oliv = dest;
 	while (n > 0)
 	{
 		*dest = *src;
