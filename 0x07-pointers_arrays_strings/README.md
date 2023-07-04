@@ -1,1 +1,1 @@
-# 0x06. C - even more pointers, arrays and strings
+this is the continuation of pointers_arrays and strings

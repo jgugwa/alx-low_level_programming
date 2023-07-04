@@ -10,9 +10,9 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *oliv;
+	char *oliver;
 
-	oliv = dest;
+	oliver = dest;
 	while (n > 0)
 	{
 		*dest = *src;
@@ -21,5 +21,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		n--;
 	}
 
-	return (yolo);
+	return (oliver);
 }
