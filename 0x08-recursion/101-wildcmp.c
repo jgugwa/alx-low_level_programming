@@ -56,10 +56,3 @@ else if (*(s + i) == c || *(s + i) == '*')
 
 return (findsrc(s, c, i + 1, p));
 }
-
-/*
-*this is the main code*/int main(void)
-{
-	return (0);
-}
-
