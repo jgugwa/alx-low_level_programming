@@ -2,7 +2,7 @@
  *function to split string to word
  */#include <stdlib.h>
 #include <string.h>
-
+#include"main.h"
 /*
  * intoduce function to count words*/int gugs(char *str, int len)
 {
