@@ -1,0 +1,1 @@
+ structure is a composite data type that allows you to group together different variables of various data types under a single name. It is a way to define a custom data structure that can hold multiple related pieces of information.
