@@ -20,7 +20,6 @@ size_t free_listint_safe(listint_t **h)
 		hold = current;
 		current = current->next;
 		free(hold);
-
 		if (hold < current)
 			break;
 	}
