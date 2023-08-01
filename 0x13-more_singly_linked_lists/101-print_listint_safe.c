@@ -1,9 +1,3 @@
-/*
- * File: 101-print_listint_safe.c
- * Auth: JUSTUS gugwa
- * date :1.8.2023
- */
-
 #include "lists.h"
 
 /**
