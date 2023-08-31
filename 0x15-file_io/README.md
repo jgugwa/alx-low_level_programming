@@ -1,1 +1,0 @@
-File I/O (Input/Output)  allows you to read data from and write data to files on your computer's storage. This is a fundamental aspect of programming, as it enables you to store and retrieve data even after your program has terminated. C provides several functions and modes for file I/O operations, primarily found in the <stdio.h> header.
